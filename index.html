@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atrideb Chatterjee – Cosmologist</title>
+<meta name="description" content="Atrideb Chatterjee, Marie Skłodowska-Curie Postdoctoral Fellow at the Kapteyn Astronomical Institute, University of Groningen. 21-cm cosmology, reionization and machine learning.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F7F9FA;
+    --text: #1C2433;
+    --muted: #5B6676;
+    --rule: #DCE2E8;
+    --accent: #2C6E6A;
+    --serif: "Spectral", Georgia, "Times New Roman", serif;
+    --sans: "Work Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --bg: #12171E;
+      --text: #E4E8EE;
+      --muted: #9AA5B4;
+      --rule: #2A323D;
+      --accent: #6FB8B1;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 18px/1.65 var(--serif); }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .wrap {
+    max-width: 1080px; margin: 0 auto; padding: 4rem 1.5rem;
+    display: grid; grid-template-columns: 260px 1fr; gap: 4rem;
+  }
+  aside { position: sticky; top: 3rem; align-self: start; font-family: var(--sans); font-size: 15px; }
+  .photo { width: 140px; height: 140px; border-radius: 50%; object-fit: cover; background: var(--rule); display: block; }
+  h1 { font-family: var(--serif); font-weight: 600; font-size: 2.1rem; line-height: 1.15; margin: 1.25rem 0 .5rem; }
+  .role { color: var(--muted); margin: 0 0 1.5rem; line-height: 1.5; }
+  .links { list-style: none; padding: 0; margin: 0; display: grid; gap: .4rem; }
+  .links a { text-decoration: none; }
+  .links a:hover { text-decoration: underline; }
+
+  main { max-width: 64ch; }
+  section + section { margin-top: 3.5rem; }
+  h2 {
+    font-family: var(--sans); font-weight: 600; font-size: 1.05rem; color: var(--accent);
+    margin: 0 0 1rem; padding-bottom: .5rem; border-bottom: 1px solid var(--rule);
+  }
+  h3 { font-family: var(--sans); font-weight: 500; font-size: .95rem; color: var(--muted); margin: 2rem 0 .5rem; }
+  p { margin: 0 0 1rem; }
+
+  .interests { display: flex; flex-wrap: wrap; gap: .5rem; padding: 0; margin: 1rem 0 0; list-style: none; }
+  .interests li { font-family: var(--sans); font-size: 14px; padding: .3rem .75rem; border: 1px solid var(--rule); border-radius: 999px; }
+
+  .pubs { list-style: none; padding: 0; margin: 0; }
+  .pub { display: grid; grid-template-columns: 3.5rem 1fr; gap: 1rem; padding: .9rem 0; }
+  .pub + .pub { border-top: 1px solid var(--rule); }
+  .year { font-family: var(--sans); font-size: 14px; color: var(--muted); padding-top: .2rem; }
+  .pub-title { font-weight: 600; display: block; }
+  .authors, .venue { font-size: 16px; color: var(--muted); display: block; }
+  .venue { font-style: italic; }
+  .me { color: var(--text); font-weight: 600; }
+  .pub-links { font-family: var(--sans); font-size: 14px; margin-top: .3rem; display: flex; gap: 1rem; }
+
+  .entry { display: grid; grid-template-columns: 8.5rem 1fr; gap: 1rem; margin-bottom: 1rem; }
+  .entry .when { font-family: var(--sans); font-size: 14px; color: var(--muted); padding-top: .2rem; }
+  .entry strong { font-weight: 600; }
+  .entry .place { color: var(--muted); font-size: 16px; display: block; }
+
+  footer { margin-top: 4rem; font-family: var(--sans); font-size: 13px; color: var(--muted); }
+
+  @media (max-width: 760px) {
+    .wrap { grid-template-columns: 1fr; gap: 2.5rem; padding: 2.5rem 1.25rem; }
+    aside { position: static; }
+    .entry { grid-template-columns: 1fr; gap: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <aside>
+    <!-- Upload a square photo named photo.jpg to the repo, or delete this line -->
+    <img class="photo" src="photo.jpg" alt="Portrait of Atrideb Chatterjee">
+    <h1>Atrideb Chatterjee</h1>
+    <p class="role">Marie Skłodowska-Curie Postdoctoral Fellow<br>Kapteyn Astronomical Institute<br>University of Groningen (50%)<br><br>Data Consultant<br><a href="https://www.generalcognitive.org/">General Cognitive</a> (50%)</p>
+    <ul class="links">
+      <li><a href="mailto:atrideb.chatterjee1994@gmail.com">atrideb.chatterjee1994@gmail.com</a></li>
+      <li><a href="cv.pdf">CV (PDF)</a></li>
+      <!-- Replace # with your profile links, or delete lines you don't need -->
+      <li><a href="https://scholar.google.com/citations?user=5M7mrgYAAAAJ&amp;hl=en">Google Scholar</a></li>
+      <li><a href="#">ORCID</a></li>
+      <li><a href="https://github.com/AtridebCh">GitHub</a></li>
+    </ul>
+  </aside>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>I'm a cosmologist studying the first billion years of the Universe, from Cosmic Dawn through the Epoch of Reionization. My work combines physical models of these early epochs with machine learning to get the most out of current and upcoming sky surveys.</p>
+      <p>I'm currently a Marie Skłodowska-Curie Postdoctoral Fellow at the Kapteyn Astronomical Institute, University of Groningen, working on <strong>LUPCOS</strong> (Learning the Universe in the era of Precision COSmology). The project brings together three threads: extending my analytical reionization model <em>CosmoReionMC</em> with more observational data and more detailed astrophysics, coupling semi-numerical galaxy formation models with modern parameter estimation techniques, and applying recent machine learning methods to cosmological N-body simulations to extract as much information as possible, as a precursor to parameter inference for the next generation of surveys.</p>
+      <p>I also enjoy taking these methods beyond astronomy. In 2025 I did a three-month data analysis internship on a digital health project with <a href="https://altoida.com/">Altoida</a>, looking for early signs of cognitive decline in app-based behavioural data. Since November 2026, I have been working as a data consultant at <a href="https://www.generalcognitive.org/">General Cognitive</a>, and my time is now split equally: 50% at the University of Groningen on my MSCA fellowship and 50% at General Cognitive.</p>
+      <p>Before Groningen, I was a postdoctoral fellow at IUCAA, Pune, and completed my integrated PhD at the National Centre for Radio Astrophysics (NCRA-TIFR), Pune, under Prof. Tirthankar Roy Choudhury.</p>
+    </section>
+
+    <section id="interests">
+      <h2>Research interests</h2>
+      <ul class="interests">
+        <li>21-cm cosmology</li>
+        <li>Epoch of Reionization</li>
+        <li>Machine learning</li>
+        <li>N-body simulations</li>
+      </ul>
+    </section>
+
+    <section id="positions">
+      <h2>Positions and education</h2>
+      <div class="entry">
+        <span class="when">Nov 2026 – present</span>
+        <div><strong>Data Consultant (50%)</strong><span class="place"><a href="https://www.generalcognitive.org/">General Cognitive</a></span></div>
+      </div>
+      <div class="entry">
+        <span class="when">Apr 2025 – present</span>
+        <div><strong>Marie Skłodowska-Curie Postdoctoral Fellow (50%)</strong><span class="place">Kapteyn Astronomical Institute, University of Groningen, the Netherlands</span></div>
+      </div>
+      <div class="entry">
+        <span class="when">Dec 2024 – Mar 2025</span>
+        <div><strong>Postdoctoral Fellow</strong><span class="place">Kapteyn Astronomical Institute, University of Groningen, the Netherlands</span></div>
+      </div>
+      <div class="entry">
+        <span class="when">Aug 2022 – Nov 2024</span>
+        <div><strong>Postdoctoral Fellow</strong><span class="place">Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune, India</span></div>
+      </div>
+      <div class="entry">
+        <span class="when">2015 – 2022</span>
+        <div><strong>Integrated PhD (M.Sc. + Ph.D.)</strong><span class="place">National Centre for Radio Astrophysics, Pune, India · Supervisor: Prof. Tirthankar Roy Choudhury</span></div>
+      </div>
+      <div class="entry">
+        <span class="when">2012 – 2015</span>
+        <div><strong>B.Sc. in Physics</strong><span class="place">Scottish Church College, Kolkata, India</span></div>
+      </div>
+    </section>
+
+    <section id="industry">
+      <h2>Industry experience</h2>
+      <div class="entry">
+        <span class="when">2025</span>
+        <div><strong>Data Analysis Intern, Digital Health Project</strong><span class="place">Altoida, 3-month internship through the InnoNext innovation platform</span>
+        <p style="margin-top:.5rem">Analysed behavioural data from a mobile app to identify features associated with early-stage cognitive decline and dementia, using statistical analysis and machine learning, including ML tools for speech data.</p></div>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Recent publications</h2>
+      <p>My five most recent papers. The full list is on <a href="https://scholar.google.com/citations?user=5M7mrgYAAAAJ&amp;hl=en">Google Scholar</a>.</p>
+      <ul class="pubs">
+        <li class="pub"><span class="year">2026</span><div>
+          <span class="pub-title">Impact of Primordial Black Hole population on 21 cm observables at high redshift</span>
+          <span class="authors"><span class="me">A. Chatterjee</span>, Barun Maity, Koushiki</span>
+          <span class="venue">Astronomy &amp; Astrophysics</span>
+          <div class="pub-links"><a href="https://arxiv.org/abs/2604.21666">arXiv:2604.21666</a><a href="https://github.com/AtridebCh/PBH_with_script">Code</a></div>
+        </div></li>
+        <li class="pub"><span class="year">2026</span><div>
+          <span class="pub-title">Effect of Primordial Black Holes on the global 21-cm signal</span>
+          <span class="authors"><span class="me">A. Chatterjee</span></span>
+          <span class="venue">Astronomy &amp; Astrophysics</span>
+          <div class="pub-links"><a href="https://arxiv.org/abs/2601.10304">arXiv:2601.10304</a><a href="https://github.com/AtridebCh/PBH_with_script">Code</a></div>
+        </div></li>
+        <li class="pub"><span class="year">2026</span><div>
+          <span class="pub-title">Learning Cosmology from Nearest Neighbour Statistics</span>
+          <span class="authors"><span class="me">A. Chatterjee</span>, Arka Banerjee, Francisco Villaescusa-Navarro, Tom Abel</span>
+          <span class="venue">Astronomy &amp; Astrophysics</span>
+          <div class="pub-links"><a href="https://arxiv.org/abs/2511.13393">arXiv:2511.13393</a></div>
+        </div></li>
+        <li class="pub"><span class="year">2025</span><div>
+          <span class="pub-title">Exploring the BSM parameter space with Neural Network aided Simulation-Based Inference</span>
+          <span class="authors"><span class="me">A. Chatterjee</span>, Arghya Choudhury, Sourav Mitra, Arpita Mondal, Subhadeep Mondal</span>
+          <span class="venue">Journal of High Energy Physics 2025 (12), 138</span>
+        </div></li>
+        <li class="pub"><span class="year">2025</span><div>
+          <span class="pub-title">Cosmology from Point Clouds with Dark Matter Halos from the Quijote Simulations</span>
+          <span class="authors"><span class="me">A. Chatterjee</span>, Francisco Villaescusa-Navarro</span>
+          <span class="venue">The Astrophysical Journal 985 (1), 132</span>
+        </div></li>
+      </ul>
+    </section>
+
+    <section id="talks">
+      <h2>Recent talks</h2>
+      <div class="entry"><span class="when">Mar 2026</span><div>Majorana-Raychaudhuri Seminar, invited talk<span class="place">Online</span></div></div>
+      <div class="entry"><span class="when">Jun 2024</span><div>MPA Cosmology/Galaxy Seminar<span class="place">Max Planck Institute for Astrophysics, Garching</span></div></div>
+      <div class="entry"><span class="when">Dec 2023</span><div>International Conference on Gravitation and Cosmology (ICGC)<span class="place">IIT Guwahati, India</span></div></div>
+      <div class="entry"><span class="when">Dec 2023</span><div>Advanced 21-cm Cosmology Workshop<span class="place">NISER, India</span></div></div>
+      <div class="entry"><span class="when">Oct 2022</span><div>Workshop on 21-cm Cosmology in the Square Kilometre Array Era<span class="place">Indian Statistical Institute, Kolkata, India</span></div></div>
+      <p>A full list of talks is in my <a href="cv.pdf">CV</a>.</p>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching and mentoring</h2>
+      <div class="entry"><span class="when">Apr – Jul 2025</span><div>Bachelor's research project supervisor (Astronomy), Tejaswi Verma<span class="place">Kapteyn Astronomical Institute, University of Groningen</span></div></div>
+      <div class="entry"><span class="when">Dec 2022 – May 2023</span><div>External project guide, B.Sc. (Physics) thesis of Manila Anil Ramrakhyani<span class="place">Fergusson College (Autonomous), Pune</span></div></div>
+      <div class="entry"><span class="when">2018, 2019</span><div>Grader, M.Sc. course “Astronomy &amp; Astrophysics”<span class="place">Dept. of Physics, Savitribai Phule Pune University</span></div></div>
+    </section>
+
+    <section id="awards">
+      <h2>Awards and skills</h2>
+      <p>Marie Skłodowska-Curie Actions (MSCA) Postdoctoral Fellowship, European Commission.</p>
+      <p><strong>Machine learning:</strong> deep learning (CNNs, point cloud architectures, Vision Transformers), multimodal learning, simulation-based inference, Bayesian inference and MCMC.</p>
+      <p><strong>Programming and tools:</strong> Python (advanced), PyTorch, NumPy, SciPy, scikit-learn, Matplotlib, Fortran, Git, SLURM, Jupyter, high-performance computing.</p>
+    </section>
+
+    <footer>Last updated November 2026</footer>
+  </main>
+
+</div>
+</body>
+</html>
